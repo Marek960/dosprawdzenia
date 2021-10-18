@@ -1,0 +1,35 @@
+#container {
+  width: 100%;
+  margin: auto;
+}
+
+#container #navigation {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  background-color: #cccace;
+}
+
+#container #navigation .blocksNavigation {
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  border-right: #000000 solid 1px;
+}
+
+#container #navigation .blocksNavigation:first-child {
+  border-left: #000000 solid 1px;
+}
+
+#container #navigation .blocksNavigation a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#container #navigation .blocksNavigation a:hover {
+  color: #ffffff;
+}
+
+

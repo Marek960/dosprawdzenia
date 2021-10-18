@@ -1,0 +1,112 @@
+body {
+  margin: auto;
+  max-width: 1920px;
+  background-color: #204257;
+}
+body #container {
+  width: 100%;
+  margin: auto;
+  background-color: #204257;
+}
+body #container #cardTask {
+  background-color: #E3E3E3;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  font-size: 18px;
+}
+body #container #cardTask .card-body {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+body #container #cardTask #comments {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+body #container #cardTask #comments .allForms .fieldComment {
+  width: 400px;
+  height: 100px;
+}
+body #container #navigation {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  background-color: #cccace;
+  border-bottom: 0 1px solid;
+}
+body #container #navigation .blocksNavigation {
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  border-right: #000 solid 1px;
+}
+body #container #navigation .blocksNavigation:first-child {
+  border-left: #000 solid 1px;
+}
+body #container #navigation .blocksNavigation a {
+  text-decoration: none;
+  color: #000;
+}
+body #container #navigation .blocksNavigation a:hover {
+  color: #fff;
+}
+body #container #titleTable {
+  height: 50px;
+  background-color: #E3E3E3;
+  margin: 10px auto;
+  width: 98%;
+}
+body #container #table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+body #container #table .block {
+  border-radius: 15px;
+}
+body #container #table #todo, body #container #table #doing, body #container #table #stoping, body #container #table #done {
+  background-color: #E3E3E3;
+  margin: 0 auto;
+  width: 90%;
+}
+body #container #table #todo h2, body #container #table #doing h2, body #container #table #stoping h2, body #container #table #done h2 {
+  text-transform: uppercase;
+  width: 90%;
+  margin: 10px auto;
+}
+body #container #table #todo .item, body #container #table #doing .item, body #container #table #stoping .item, body #container #table #done .item {
+  border: 1px #000 solid;
+  margin-top: 20px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: #fff;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+body #container #table #todo .item .btn, body #container #table #doing .item .btn, body #container #table #stoping .item .btn, body #container #table #done .item .btn {
+  font-size: 16px;
+  text-decoration: none;
+  color: blue;
+}
+body #container #table #todo .item .btn:hover, body #container #table #doing .item .btn:hover, body #container #table #stoping .item .btn:hover, body #container #table #done .item .btn:hover {
+  color: #050563;
+}
+body #container .title {
+  font-size: 18px;
+}

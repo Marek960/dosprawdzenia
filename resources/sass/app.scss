@@ -1,0 +1,114 @@
+body{
+    margin: auto;
+    max-width: 1920px;
+    background-color: #204257;
+    #container{
+        width: 100%;
+        margin: auto;
+        background-color: #204257;
+        #cardTask{
+            background-color: #E3E3E3;
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            max-width: 1000px;
+            margin: auto;
+            font-size: 18px;
+            .card-body{
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                align-items: center;
+                justify-content: center;
+            }
+            #comments{
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                align-items: center;
+                justify-content: center;
+                .allForms{
+                    .fieldComment{
+                        width: 400px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+        #navigation{
+            display: flex;
+            justify-content: space-evenly;
+            height: 50px;
+            background-color: #cccace;
+            border-bottom: 000 1px solid;
+            .blocksNavigation{
+                width: 220px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 22px;
+                border-right: #000 solid 1px;
+                &:first-child{
+                    border-left:#000 solid 1px;
+                }
+                a{
+                    text-decoration: none;
+                    color: #000;
+                    &:hover {
+                        color:#fff;
+                    }
+                }
+            }
+        }
+        #titleTable{
+            height: 50px;
+            background-color: #E3E3E3;
+            margin: 10px auto;
+            width: 98%;
+        }
+        #table{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            .block{
+                border-radius: 15px;
+            }
+            #todo, #doing, #stoping, #done{
+                background-color: #E3E3E3;
+                margin: 0 auto;
+                width: 90%;
+                h2{
+                    text-transform: uppercase;
+                    width: 90%;
+                    margin: 10px auto;
+                }
+                .item{
+                    border: 1px #000 solid;
+                    margin-top: 20px;
+                    display: flex;
+                    align-content: flex-start;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    flex-wrap: nowrap;
+                    flex-direction: column;
+                    background-color: #fff;
+                    width: 90%;
+                    margin: 10px auto;
+                    border-radius: 5px;
+                    .btn{
+                        font-size: 16px;
+                        text-decoration: none;
+                        color: rgb(0, 0, 255);
+                        &:hover {
+                            color: rgb(5, 5, 99);
+                        }
+                    }
+                }
+            }
+        }
+        .title{
+            font-size: 18px;
+        }
+    }
+}

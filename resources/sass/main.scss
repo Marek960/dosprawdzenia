@@ -1,0 +1,29 @@
+#container{
+    width: 100%;
+    margin: auto;
+    #navigation{
+        display: flex;
+        justify-content: space-evenly;
+        height: 50px;
+        background-color: #cccace;
+        border-bottom: 000 1px solid;
+        .blocksNavigation{
+            width: 220px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+            border-right: #000 solid 1px;
+            &:first-child{
+                border-left:#000 solid 1px;
+            }
+            a{
+                text-decoration: none;
+                color: #000;
+                &:hover {
+                    color:#fff;
+                }
+            }
+        }
+    }
+}
